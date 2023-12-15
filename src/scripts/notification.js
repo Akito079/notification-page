@@ -1,0 +1,66 @@
+const notification = [
+  
+    {
+      id : 1,
+      readStatus : true,
+      name : 'Mark WebGLBuffer',
+      image : 'avatar-mark-webber.webp',
+      action : 'reacted to your recent post',
+      target : 'My first tournament today!',  
+      time : '1 min ago',
+    },
+    {
+      id : 2,
+      readStatus : true,
+      name : 'Angela Gray',
+      image : 'avatar-angela-gray.webp',
+      action : 'followed you',
+      time : '5min ago',
+    },
+    {
+      id : 3,
+      readStatus : true,
+      name : 'Jacob Thompson',
+      image : 'avatar-jacob-thompson.webp',
+      action : 'has joined your group',
+      target : 'Chess-Club',
+      time : '1 day ago',
+    },
+    {
+      id : 4,
+      readStatus : true,
+      name : 'Rizky Hasanuddin',
+      image : 'avatar-rizky-hasanuddin.webp',
+      action : 'sent you a private message',
+      time : '5 days ago',
+      message : `Hello, thanks for setting up the Chess-Club.I've been a member for a few weeks now and I'm already having lots of fun and improving my game `
+    },
+    {
+      id : 5,
+      readStatus : true,
+      name : 'Kimberly Smith',
+      image : 'avatar-kimberly-smith.webp',
+      action : 'commented on your picture',
+      time : '1week ago',
+      postImage : 'image-chess.webp',
+    },
+    {
+      id : 6,
+      readStatus : true,
+      name : 'Nathan Peterson',
+      image : 'avatar-nathan-peterson.webp',
+      action : 'reacted to your recent post',
+      target  : '5 end-game straight to increase your win rate',
+      time : '2weeks ago',
+    },
+    {
+      id : 7,
+      readStatus : true,
+      name : 'Anna Kim',
+      image : 'avatar-anna-kim.webp',
+      action : 'left the group',
+      target : 'Chess Club',
+      time : '2weeks agp',
+    },
+]
+export default  notification ;
